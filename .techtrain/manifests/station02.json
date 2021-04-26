@@ -1,0 +1,15 @@
+{
+  "name": "Station 02",
+  "id": 2,
+  "prepare": [
+    "yarn install"
+  ],
+  "tests": [
+    {
+      "type": "command",
+      "title": "Prettierのテストが通る",
+      "command": "yarn",
+      "args": ["station2:prettier"]
+    }
+  ]
+}
